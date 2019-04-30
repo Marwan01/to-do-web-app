@@ -5,6 +5,8 @@ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import PropTypes from 'prop-types';
 
+
+
 const AppLayout = styled.div`
   display: grid;
   grid-template-areas:
@@ -27,6 +29,7 @@ export default function App(props) {
       <Banner>
         <Navbar />
       </Banner>
+
       <TodoList />
     </AppLayout>
   );

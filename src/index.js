@@ -7,9 +7,12 @@ import {app,
 } from "./stitch";
 import LoginAnon from "./components/LoginAnon";
 import App from "./components/App";
-import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
+
+import { Nav, NavItem, NavLink } from "shards-react";
+
 
 function MyApp(props) {
   return isLoggedIn() ? (
