@@ -7,4 +7,4 @@ Did this as a result of following a tutorial on my road to learning MongoDB: htt
 
  <strong>Screenshot:</strong>
  <br>
-![Screenshot](/img/pic.png)
+![Screenshot](/pic.png)
